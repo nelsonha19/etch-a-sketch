@@ -67,7 +67,7 @@ button.addEventListener('click', () => {
         createGrid(number);
     } else {
         alert("Please enter a number between 0 and 32");
-
+        text.value = "";
     }
 
 });
